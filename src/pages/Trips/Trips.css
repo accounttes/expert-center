@@ -1,0 +1,36 @@
+.trips-container {
+    padding: 20px;
+    background-color: #f0f4f8;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.trips-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tariff-active {
+    border: 1px solid black;
+}
+
+.trip-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.tariffs-filter {
+    margin-top: 20px;
+}
+
+.tariffs-filter>button:not(:first-child) {
+    margin-left: 10px;
+}
